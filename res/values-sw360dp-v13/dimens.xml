@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="message_bubble_margin_incoming_outside">44.0dip</dimen>
+    <dimen name="message_bubble_margin_outgoing_outside">76.0dip</dimen>
+    <dimen name="nav_drawer_width">320.0dip</dimen>
+</resources>

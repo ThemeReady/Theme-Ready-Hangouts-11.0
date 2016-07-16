@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_ellipsis" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_centerInParent="true" android:contentDescription="@string/ephemeral_message_sending" />
+    <com.google.android.apps.hangouts.views.FixedAspectRatioImageView android:id="@id/image_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:maxWidth="@dimen/attachment_max_length" />
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:id="@id/upload_progress" android:background="@color/translucent_black" android:visibility="gone" android:layout_alignLeft="@id/image_thumbnail" android:layout_alignRight="@id/image_thumbnail" android:layout_alignBottom="@id/image_thumbnail" app:mtrlColor="@android:color/white" app:mtrlLinearBarInset="0.0dip" style="@style/Widget.GoogleLib.Progress.Linear.Determinate" />
+    <FrameLayout android:id="@id/image_status_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/image_status_button_background" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/video_play_button_background" />
+        <ImageView android:layout_gravity="center" android:id="@id/image_status_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:id="@id/process_progress" android:background="@drawable/video_processing_background" android:visibility="gone" android:layout_centerInParent="true" app:mtrlColor="@android:color/white" style="@style/Widget.GoogleLib.Progress.Circular.Indeterminate" />
+    <TextView android:id="@id/attachment_name_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_alignLeft="@id/image_thumbnail" android:layout_alignRight="@id/image_thumbnail" android:layout_alignBottom="@id/image_thumbnail" style="@style/AttachmentHandler.Name" />
+    <FrameLayout android:id="@id/media_attachment_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>
