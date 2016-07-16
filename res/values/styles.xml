@@ -347,7 +347,7 @@
     <style name="Theme.Hangouts.PeopleAndOptions" parent="@style/Theme.EmeraldSea">
         <item name="android:textColorPrimary">@color/text_color_primary_settings</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_settings</item>
-        <item name="colorAccent">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
     </style>
     <style name="avatar_container">
         <item name="android:paddingRight">@dimen/header_item_avatar_container_right_padding</item>
@@ -524,12 +524,12 @@
         <item name="behavior_skipCollapsed">false</item>
     </style>
     <style name="Theme.Design.BottomSheetDialog" parent="@style/Theme.AppCompat.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
     </style>
     <style name="Theme.Design.Light.BottomSheetDialog" parent="@style/Theme.AppCompat.Light.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
         <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
     </style>
@@ -1046,12 +1046,12 @@
         <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.ActionBar">
-        <item name="background">?colorPrimary</item>
+        <item name="background">@color/quantum_googgreen500</item>
         <item name="backgroundStacked">?colorPrimary</item>
         <item name="backgroundSplit">?colorPrimary</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.Light.ActionBar">
-        <item name="background">?colorPrimary</item>
+        <item name="background">@color/quantum_googgreen500</item>
         <item name="backgroundStacked">?colorPrimary</item>
         <item name="backgroundSplit">?colorPrimary</item>
     </style>
@@ -2118,10 +2118,11 @@
     </style>
     <style name="Theme.EmeraldSea.Launcher" parent="@style/Theme.EmeraldSea">
         <item name="android:windowBackground">@drawable/quantum_launchscreen_hangouts</item>
+	<item name="android:windowShowWallpaper">false</item>
         <item name="colorPrimaryDark">@color/quantum_grey</item>
     </style>
     <style name="EsActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/primary</item>
+        <item name="android:background">@color/quantum_googgreen500</item>
         <item name="android:logo">@android:color/transparent</item>
         <item name="android:titleTextStyle">@style/EsActionBar.Title</item>
     </style>
@@ -2668,18 +2669,19 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="Theme.ConversationActivity" parent="@style/Theme.EmeraldSea">
-        <item name="android:windowBackground">@null</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
     <style name="Theme.EmeraldSea.EditableActionBar" parent="@style/Theme.EmeraldSea">
         <item name="windowActionModeOverlay">false</item>
     </style>
     <style name="Hangout.Settings.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/primary</item>
+        <item name="android:background">@color/quantum_googgreen500</item>
     </style>
     <style name="Theme.Hangouts.Settings" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textColorPrimary">@color/text_color_primary_settings</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_settings</item>
-        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
         <item name="android:dividerHeight">@dimen/divider_height_settings</item>
         <item name="android:listDivider">@drawable/list_divider_settings</item>
         <item name="android:actionBarStyle">@style/Hangout.Settings.ActionBar</item>
@@ -2698,7 +2700,7 @@
         <item name="actionOverflowButtonStyle">@style/ActionBarOverflow</item>
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
-        <item name="colorAccent">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
     </style>
     <style name="Theme.EmeraldSea.Settings" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/EsActionBar</item>
@@ -2714,10 +2716,11 @@
     </style>
     <style name="Theme.InCallDialpad" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar" />
     <style name="Theme.Hangout" parent="@style/Theme.EmeraldSea">
-        <item name="android:windowBackground">@null</item>
+        <item name="android:windowBackground">@color/background_material_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
-        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorPrimaryDark">@color/solid_black</item>
     </style>
     <style name="Theme.Hangout.IncomingRing" parent="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar">
         <item name="android:windowBackground">@color/transparent</item>

@@ -866,7 +866,7 @@
     :cond_b
     iget-object v1, p0, Lfwn;->h:Lcom/google/android/apps/hangouts/views/FixedAspectRatioImageView;
 
-    const v3, 0x106000b
+    const v3, 0x7f0e020a # @color/background_floating_material_light
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -30,10 +30,10 @@
         <include layout="@layout/hangout_audio_calling_overlay" />
         <LinearLayout android:orientation="vertical" android:id="@id/join_hangout_greenroom_controls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
             <com.google.android.apps.hangouts.hangout.HangoutSelfMenu android:layout_gravity="center" android:orientation="horizontal" android:id="@id/hangout_greenroom_controls" android:layout_width="wrap_content" android:layout_height="@dimen/hangout_self_menu_circle_diameter" android:layout_marginBottom="@dimen/hangout_filmstrip_margin" />
-            <FrameLayout android:background="@color/quantum_black_100" android:layout_width="fill_parent" android:layout_height="@dimen/hangout_controls_divider_height" />
+            <FrameLayout android:background="@color/photo_home_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/hangout_controls_divider_height" />
             <Button android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/hangout_join_or_end_button_text_font_size" android:textColor="@color/quantum_white_text" android:layout_gravity="bottom|center" android:id="@id/join_hangout" android:background="@drawable/join_hangout_background" android:layout_width="fill_parent" android:layout_height="@dimen/hangout_join_or_end_button_height" android:text="@string/hangout_enter_greenroom" android:textAllCaps="true" />
         </LinearLayout>
         <com.google.android.libraries.quantum.snackbar.Snackbar android:id="@id/hangout_snackbar" android:visibility="invisible" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:translationZ="30.0dip" style="@style/Hangouts.Snackbar" />
     </RelativeLayout>
-    <view android:id="@id/proximity_cover_view" android:background="@color/quantum_black_100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.apps.hangouts.hangout.ProximityCoverView" />
+    <view android:id="@id/proximity_cover_view" android:background="@color/photo_home_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.apps.hangouts.hangout.ProximityCoverView" />
 </RelativeLayout>

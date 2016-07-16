@@ -1375,7 +1375,7 @@
 
     move-result-object v0
 
-    sget v2, Lfxl;->dY:I
+    sget v2, Lfxl;->er:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

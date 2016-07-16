@@ -2117,7 +2117,7 @@
 
 .field public static final tR:I = 0x7f0e0095
 
-.field public static final tS:I = 0x7f0e0111
+.field public static final tS:I = 0x7f0e00a5 # @color/incoming_conversation_bubble_background
 
 .field public static final tT:I = 0x7f0d02ad
 

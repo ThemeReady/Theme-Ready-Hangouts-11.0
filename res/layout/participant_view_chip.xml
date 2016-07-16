@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:paddingLeft="@dimen/participant_chip_pad_horiz" android:paddingTop="@dimen/participant_chip_pad_vert" android:paddingRight="@dimen/participant_chip_pad_horiz" android:paddingBottom="@dimen/participant_chip_pad_vert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transformPivotX="0.0dip"
+<LinearLayout android:orientation="horizontal" android:background="@color/transparent" android:paddingLeft="@dimen/participant_chip_pad_horiz" android:paddingTop="@dimen/participant_chip_pad_vert" android:paddingRight="@dimen/participant_chip_pad_horiz" android:paddingBottom="@dimen/participant_chip_pad_vert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transformPivotX="0.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="horizontal" android:id="@id/main_layout" android:background="@drawable/participant_rounded_background" android:layout_width="wrap_content" android:layout_height="@dimen/peoplelistv2_tiny_avatar_dimension"
       xmlns:android="http://schemas.android.com/apk/res/android">

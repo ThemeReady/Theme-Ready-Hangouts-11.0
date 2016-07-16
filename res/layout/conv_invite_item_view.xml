@@ -15,7 +15,7 @@
                 </LinearLayout>
             </LinearLayout>
             <RelativeLayout android:id="@id/ignore_accept_buttons" android:paddingLeft="@dimen/invite_card_inner_margin_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/inviter_info">
-                <View android:id="@id/invite_divider" android:background="@color/quantum_bluegrey50" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <View android:id="@id/invite_divider" android:background="@color/quantum_black_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
                 <Button android:textColor="@color/text_black_54_percent" android:id="@id/ignore_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_button" android:layout_below="@id/invite_divider" style="@style/ConvInviteListItemBorderlessButton" />
                 <Button android:textColor="@color/accept_button_text_color" android:id="@id/accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept_button" style="@style/InviteListItemAcceptInviteButtonStyle" />
             </RelativeLayout>

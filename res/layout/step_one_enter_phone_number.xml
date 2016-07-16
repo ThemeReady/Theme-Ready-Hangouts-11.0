@@ -12,7 +12,7 @@
         <Spinner android:id="@id/verify_phone_country_spinner" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:drawSelectorOnTop="true" android:spinnerMode="dialog" />
         <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
             <TextView android:textSize="@dimen/promo_small_text_size" android:textColor="@color/quantum_white_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verify_phone_number" />
-            <LinearLayout android:background="@android:color/transparent" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <LinearLayout android:background="@color/transparent" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
             <EditText android:textSize="@dimen/promo_header_text_size" android:textColor="@color/quantum_white_text" android:id="@id/verify_phone_phone_number" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/phone_input_size" android:singleLine="true" android:inputType="phone" />
         </LinearLayout>
     </LinearLayout>

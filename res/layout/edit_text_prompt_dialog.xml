@@ -5,5 +5,5 @@
         <EditText android:textColorHint="@color/text_hint" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="400.0dip" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" android:inputType="text" />
         <ImageView android:id="@id/deleteText" android:background="@drawable/list_selector" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_cancel_black_18" android:contentDescription="@string/clear_text" />
     </LinearLayout>
-    <TextView android:textColor="#ff555555" android:gravity="center" android:id="@id/noticeText" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/widget_conversation_name" android:gravity="center" android:id="@id/noticeText" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </LinearLayout>

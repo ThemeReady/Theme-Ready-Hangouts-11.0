@@ -259,11 +259,11 @@
     <style name="Theme.Hangouts.Settings" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textColorPrimary">@color/text_color_primary_settings</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_settings</item>
-        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
         <item name="android:dividerHeight">@dimen/divider_height_settings</item>
         <item name="android:listDivider">@drawable/list_divider_settings</item>
         <item name="android:actionBarStyle">@style/Hangout.Settings.ActionBar</item>
-        <item name="android:colorAccent">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent_dark</item>
         <item name="supportPreferenceCategoryStyle">@style/SupportPreference.Category</item>
         <item name="supportPreferenceScreenStyle">@style/SupportPreference.PreferenceScreen</item>
         <item name="supportPreferenceFragmentStyle">@style/SupportPreferenceFragment</item>
@@ -279,7 +279,7 @@
         <item name="actionOverflowButtonStyle">@style/ActionBarOverflow</item>
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
-        <item name="colorAccent">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent_dark</item>
     </style>
     <style name="Theme.EmeraldSea.Settings" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/EsActionBar</item>
